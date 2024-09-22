@@ -1,7 +1,6 @@
 package org.jgroups.protocols.raft;
 
-//import static org.fusesource.leveldbjni.JniDBFactory.factory;
-import static org.iq80.leveldb.impl.Iq80DBFactory.factory;
+import static org.fusesource.leveldbjni.JniDBFactory.factory;
 import static org.jgroups.raft.util.LongHelper.fromByteArrayToLong;
 import static org.jgroups.raft.util.LongHelper.fromLongToByteArray;
 
